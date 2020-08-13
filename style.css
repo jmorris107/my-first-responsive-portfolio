@@ -1,0 +1,27 @@
+font {
+    font-family: 'Source Serif Pro', serif;
+    color: lightseagreen;
+}
+
+body {
+   background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700460817.jpg);
+    }
+
+nav {
+    margin-bottom: 60px;
+}
+
+.container {
+border: white 30px solid;
+background-color: white
+}
+.footer {
+    border-top: lightseagreen 6px solid; 
+    margin-top: 60px;
+    border-bottom: grey 60px solid;
+}
+.btn-primary {
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    color: #fff;
+}
