@@ -1,27 +1,57 @@
-font {
+
+.navbar-brand {
+background-color: rgb(215, 255, 255);
+}
+
+.font {
     font-family: 'Source Serif Pro', serif;
-    color: lightseagreen;
+    color: #3d1f1f ;
 }
 
 body {
-   background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700460817.jpg);
-    }
+   background-image: url(https://wallpaper-house.com/data/out/12/wallpaper2you_568983.gif);
+}
 
 nav {
     margin-bottom: 60px;
 }
 
 .container {
-border: white 30px solid;
-background-color: white
+height: 600px;
+border:#3d1f1f 10px solid;
+background-color: rgb(215, 255, 255);
 }
+
 .footer {
     border-top: lightseagreen 6px solid; 
     margin-top: 60px;
-    border-bottom: grey 60px solid;
+    border-bottom: #3d1f1f  60px solid;
 }
+
 .btn-primary {
-    background-color: lightseagreen;
-    border-color: lightseagreen;
     color: #fff;
+    border-color:#3d1f1f;
+    background-color: rgb(215, 255, 255);
+    
+}
+
+#index-img
+{
+padding: 10px;
+border:#3d1f1f 10px solid;  
+}
+
+#portfolio-img
+{
+margin: 30px;
+padding: 10px;
+border:#3d1f1f 10px solid;  
+}
+.col {
+    padding: 30px;
+}
+
+.row{
+    padding: 0px;
+    margin: 0px;
 }
