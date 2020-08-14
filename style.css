@@ -1,27 +1,24 @@
-
+/*changed color of my name of top left corner.*/
 .navbar-brand {
 background-color: rgb(215, 255, 255);
 }
-
+/*changed font and color*/
 .font {
     font-family: 'Source Serif Pro', serif;
     color: #3d1f1f ;
 }
-
+/* whole webpage background image.*/
 body {
    background-image: url(background.gif);
 }
-
-nav {
-    margin-bottom: 60px;
-}
-
+/* changed container color and size.*/
 .container {
+width: 400px;
 height: 600px;
 border:#3d1f1f 10px solid;
 background-color: rgb(215, 255, 255);
 }
-
+/* created border of footer.*/
 .footer {
     border-top: lightseagreen 6px solid; 
     margin-top: 60px;
@@ -34,24 +31,22 @@ background-color: rgb(215, 255, 255);
     background-color: rgb(215, 255, 255);
     
 }
+/* made message box size bigger.*/
+#InputMessage {
+    height: 200px;
+}
 
+/* made border around the profile picture on index page.*/
 #index-img
 {
+margin: 10px;
 padding: 10px;
 border:#3d1f1f 10px solid;  
 }
-
+/* made border around the portfolio pictures.*/
 #portfolio-img
 {
 margin: 30px;
 padding: 10px;
 border:#3d1f1f 10px solid;  
-}
-.col {
-    padding: 30px;
-}
-
-.row{
-    padding: 0px;
-    margin: 0px;
 }
