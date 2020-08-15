@@ -18,6 +18,7 @@ background-color: rgb(215, 255, 255);
 margin-bottom: 60px;
 }
 
+/* Submit button look.*/
 .btn-primary {
     color: #3d1f1f;
     border-color:#3d1f1f;
@@ -46,7 +47,7 @@ border:#3d1f1f 10px solid;
 }
 
 /* Added social media icons.*/
-#SSN-icons 
+#SMS-icons 
 {
 height: 50px;
 width: 50px;
