@@ -13,22 +13,16 @@ body {
 }
 /* changed container color and size.*/
 .container {
-width: 400px;
-height: 600px;
 border:#3d1f1f 10px solid;
 background-color: rgb(215, 255, 255);
-}
-/* created border of footer.*/
-.footer {
-    border-top: lightseagreen 6px solid; 
-    margin-top: 60px;
-    border-bottom: #3d1f1f  60px solid;
+margin-bottom: 60px;
 }
 
 .btn-primary {
-    color: #fff;
+    color: #3d1f1f;
     border-color:#3d1f1f;
-    background-color: rgb(215, 255, 255);
+    background-color: lightseagreen;
+    margin-bottom: 20px;
     
 }
 /* made message box size bigger.*/
@@ -46,7 +40,21 @@ border:#3d1f1f 10px solid;
 /* made border around the portfolio pictures.*/
 #portfolio-img
 {
-margin: 30px;
+margin: 10px;
 padding: 10px;
 border:#3d1f1f 10px solid;  
+}
+
+/* Added social media icons.*/
+#SSN-icons 
+{
+height: 50px;
+width: 50px;
+}
+
+/* created border of footer.*/
+.footer {
+    margin: 100;
+    border-top: lightseagreen 6px solid; 
+    border-bottom: #3d1f1f  60px solid;
 }

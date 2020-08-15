@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
 <title>My portfolio/Portfolio/Jennifer Morris</title>
 
+<!-- link Bootstrap css-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <!-- link to css-->
 <link rel="stylesheet" href="style.css">
 <!-- link to google font-->
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap" rel="stylesheet">
-<!-- link to Bootstrap CSS-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 
 </head>
 
@@ -37,33 +38,39 @@
             </li>
           </ul>
         </div>
-    </nav>
+    <!-- Social Media Links -->
+    <a class="nav-links" href="https://www.instagram.com/akikojennifer/?hl=en"><img id="SSN-icons" src="instagram-icon.jpg" alt="instagram-icon"><span class="sr-only"></span></a>
+    <a class="nav-links" href="https://www.facebook.com/akikojennifer"><img id="SSN-icons" src="facebook-icon.jpg" alt="facebook-icon"><span class="sr-only"></span></a>
+    <a class="nav-links" href="https://github.com/jmorris107"><img id="SSN-icons" src="github-icon.jpg" alt="github-icon"><span class="sr-only"></span></a>
+      </nav>
     
     <!-- container -->
     <div class= "container">
       <h1><b>Portfolio</b></h1>
       <!-- Added portfolio images, Added col and row from Bootstrap, changed size,-->
       <div class="row">
-        <div class="col-sm-4">
-            <img id="portfolio-img" src="portfolio-img1.jpg" height="200" width="200" alt="about-me">
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <img id="portfolio-img" src="portfolio-img1.jpg" class="img-fluid" alt="about-me">
           </div>
-          <div class="col-sm-4">
-            <img id="portfolio-img" src="portfolio-img2.jpg" height="200" width="200" alt="graduation">
-          </div>
-          <div class="col-sm-4">
-            <img id="portfolio-img" src="portfolio-img3.jpg" height="200" width="200" alt="kimono">
-          </div>
-          <div class="row">
-            <div class="col-sm-4">
-                <img id="portfolio-img" src="portfolio-img4.jpg" height="200" width="200" alt="fanpage">
-              </div>
-              <div class="col-sm-4">
-                <img id="portfolio-img" src="portfolio-img5.jpg" height="200" width="200" alt="scratch">
-              </div>
-              <div class="col-sm-4">
-                <img id="portfolio-img" src="portfolio-img6.jpg" height="200" width="200" alt="clombia">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <img id="portfolio-img" src="portfolio-img2.jpg" class="img-fluid" alt="graduation">
           </div>
         </div>
+          <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <img id="portfolio-img" src="portfolio-img3.jpg" class="img-fluid" alt="kimono">
+          </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+                <img id="portfolio-img" src="portfolio-img4.jpg" class="img-fluid" alt="fanpage">
+              </div>
+            </div>
+              <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+                <img id="portfolio-img" src="portfolio-img5.jpg" class="img-fluid" alt="scratch">
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+                <img id="portfolio-img" src="portfolio-img6.jpg" class="img-fluid" alt="clombia">
+          </div>
         </div>
     </div>
 </body>
