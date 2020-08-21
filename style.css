@@ -9,7 +9,7 @@ background-color: rgb(215, 255, 255);
 }
 /* whole webpage background image.*/
 body {
-   background-image: url(background.gif);
+   background-image: url(images/background.gif);
 }
 /* changed container color and size.*/
 .container {
