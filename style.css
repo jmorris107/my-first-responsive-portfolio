@@ -26,10 +26,6 @@ margin-bottom: 60px;
     margin-bottom: 20px;
     
 }
-/* made message box size bigger.*/
-#InputMessage {
-    height: 200px;
-}
 
 /* made border around the profile picture on index page.*/
 #index-img
@@ -45,6 +41,12 @@ float: left;
 margin: 10px;
 padding: 10px;
 border:#3d1f1f 10px solid;  
+}
+.githublink
+{
+background-color: aquamarine; 
+color: #3d1f1f;
+
 }
 
 /* Added social media icons.*/
