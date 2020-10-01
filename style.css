@@ -37,6 +37,7 @@ margin-bottom: 60px;
 margin: 10px;
 padding: 10px;
 border:#3d1f1f 10px solid;  
+float: left;
 }
 /* made border around the portfolio pictures.*/
 #portfolio-img
@@ -51,6 +52,21 @@ border:#3d1f1f 10px solid;
 {
 height: 50px;
 width: 50px;
+}
+
+#resume
+{
+ height: 300px;  
+ width: 200px; 
+margin: 10px;
+padding: 10px;
+border:#3d1f1f 10px solid;  
+}
+
+#clickResume
+{
+ font-size: medium;
+ color: rgb(0, 155, 103);
 }
 
 /* created border of footer.*/
